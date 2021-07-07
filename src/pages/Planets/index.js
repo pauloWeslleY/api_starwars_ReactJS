@@ -1,8 +1,15 @@
-import React from 'react'
+import PlanetsWorld from "../../components/EarthPlanets/EarthPlanets";
 
 function Planets() {
+   const planets = {
+      title: "Planets"
+   }
    return (
-      <h1>Planets</h1>
+      <>
+         <h1>{planets.title}</h1>
+         <hr />
+         <PlanetsWorld />
+      </>
    )
 }
 

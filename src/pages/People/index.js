@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Person from '../../components/Person/Person';
 
-function Person() {
+function People() {
    return (
-      <h1>Person</h1>
+      <Person />
    )
 }
 
-export default Person;
+export default People;

@@ -1,9 +1,14 @@
-import React from 'react'
+import Films from "../../components/Movies/Films";
+import MoviesList from "../../components/Movies/MoviesList";
 
 function Movies() {
-   return (
-      <h1>Films</h1>
-   )
+  return (
+    <>
+      <Films />
+      <hr />
+      <MoviesList />
+    </>
+  )
 }
 
 export default Movies;

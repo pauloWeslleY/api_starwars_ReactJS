@@ -3,7 +3,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
 //? Pages
-import Home from './pages/Home';
 import Movies from './pages/Films';
 import Person from './pages/People';
 import Planets from './pages/Planets';
@@ -15,7 +14,6 @@ function Routes() {
    return (
 		<BrowserRouter>
 			<Switch>
-				<Route path="/" exact component={Home} />
 				<Route path="/movies" component={Movies} />
 				<Route path="/person" component={Person} />
 				<Route path="/planets" component={Planets} />
