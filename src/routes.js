@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-
-//? Pages
+//TODO: Pages
 import Movies from './pages/Films';
 import Person from './pages/People';
 import Planets from './pages/Planets';

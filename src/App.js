@@ -18,7 +18,6 @@ import Vehicles from "./pages/Vehicles";
 
 import "./style/App.module.css";
 
-
 function App(props) {
 
 	return (
